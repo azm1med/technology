@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1157" height="419">
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="c">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="37.744%" y1="4.764%" x2="60.108%" y2="100%" id="f">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="d">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148574 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="e" x="272" y="200" width="40" height="40" rx="2"/>
+        <path id="a" d="M0 0h1440v900H0z"/>
+    </defs>
+    <g transform="translate(-157 -192)" fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)">
+            <g transform="translate(918 192)">
+                <rect fill="url(#c)" opacity=".3" x="193" y="150" width="20" height="20" rx="2"/>
+                <rect stroke="#04A8F5" opacity=".2" x="268.5" y="301.5" width="19" height="19" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" x="292.5" y="301.5" width="19" height="19" rx="2"/>
+                <rect fill="url(#c)" opacity=".3" x="292" y="279" width="20" height="20" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" x="202.5" y="50.5" width="19" height="19" rx="2"/>
+                <rect fill="#04A8F5" x="223" y="100" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".1" x="269" y="100" width="40" height="40" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" x="356.5" y="129.5" width="39" height="39" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" x="269.5" y="50.5" width="39" height="39" rx="2"/>
+                <rect fill="url(#c)" opacity=".2" x="320" y="50" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".4" x="320" width="40" height="40" rx="2"/>
+                <use fill="#000" filter="url(#d)" xlink:href="#e"/>
+                <use fill="#FFF" xlink:href="#e"/>
+                <rect fill="url(#c)" opacity=".3" x="186" y="281" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".3" x="47" y="379" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".1" y="379" width="40" height="40" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" x="186.5" y="379.5" width="39" height="39" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".1" x="186.5" y="334.5" width="39" height="39" rx="2"/>
+            </g>
+            <g transform="translate(157 192)">
+                <rect fill="url(#c)" opacity=".3" transform="matrix(-1 0 0 1 376 0)" x="168" y="101" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".1" transform="matrix(-1 0 0 1 376 0)" x="168" y="230" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".3" transform="matrix(-1 0 0 1 356 0)" x="168" y="329" width="20" height="20" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 394 0)" x="188.5" y="349.5" width="17" height="17" rx="2"/>
+                <rect fill="#FF9502" transform="matrix(-1 0 0 1 253 0)" x="108" y="331" width="37" height="37" rx="2"/>
+                <rect fill="url(#c)" opacity=".1" transform="matrix(-1 0 0 1 474 0)" x="217" y="230" width="40" height="40" rx="2"/>
+                <rect stroke="#FF9502" transform="matrix(-1 0 0 1 178 0)" x="69.5" y="230.5" width="39" height="39" rx="2"/>
+                <rect stroke="#C2C7CE" opacity=".2" transform="matrix(-1 0 0 1 278 0)" x="119.5" y="150.5" width="39" height="39" rx="2"/>
+                <rect fill="url(#c)" opacity=".4" transform="matrix(-1 0 0 1 82 0)" x="21" y="150" width="40" height="40" rx="2"/>
+                <rect fill="url(#c)" opacity=".1" transform="matrix(-1 0 0 1 278 0)" x="119" width="40" height="40" rx="2"/>
+                <rect stroke="url(#c)" opacity=".2" transform="matrix(-1 0 0 1 178 0)" x="69.5" y=".5" width="39" height="39" rx="2"/>
+                <rect stroke="url(#c)" opacity=".2" transform="matrix(-1 0 0 1 178 0)" x="69.5" y="50.5" width="39" height="39" rx="2"/>
+                <rect fill="url(#c)" opacity=".4" transform="matrix(-1 0 0 1 21 0)" width="21" height="21" rx="2"/>
+                <rect stroke="url(#c)" opacity=".2" transform="matrix(-1 0 0 1 259 0)" x="119.5" y="50.5" width="20" height="20" rx="2"/>
+                <rect fill="#F1F3F5" transform="matrix(-1 0 0 1 211 0)" x="95" y="222" width="21" height="21" rx="2"/>
+                <g transform="translate(171 279)" opacity=".2" stroke="url(#f)">
+                    <path d="M5.863 0v16.508l38.352 19.777v49.014"/>
+                    <path d="M3 2v16.508l38.353 19.777v49.014"/>
+                    <path d="M0 4v16.507l38.353 19.777V89.3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -47,8 +47,42 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    color: #fff;
+    font-weight: 700;
     text-transform: uppercase;
+    background: var(--primary);
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: rgb(203 208 214 / 76%) 0px 6px 12px 0px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: var(--primary);
+    background: #fff;
+    border: 1px solid var(--primary);
+}
+
+.btn-link {
+    max-width: 112px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 30px;
+}
+
+.btn-link-img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+
+.btn-link:hover .btn-link-img {
+    right: -10px;
 }
 
 .flex {
@@ -56,3 +90,92 @@ li {
     align-items: center;
 }
 
+.flex.flex--center {
+    justify-content: center;
+}
+
+.card {
+    display: block;
+    border-radius: 8px;
+    border: 2px solid rgb(241, 243, 246);
+    background-image: linear-gradient(rgb(241, 243, 246) 2%, rgb(255, 255, 255));
+    padding: 10px 12px;
+    position: relative;
+}
+
+
+.card:hover {
+    box-shadow: rgb(32 43 80 / 12%) 0px 20px 65px 0px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 8px 8px 0 0;
+    height: 5px;
+    width: 0px;
+    transition: all 0.3s;
+}
+.card.card--blue::before {
+    background: linear-gradient(135deg, rgb(34, 209, 238), rgb(13, 160, 224));
+}
+
+.card.card--orange::before {
+    background: linear-gradient(135deg, rgb(249, 140, 65), rgb(229, 46, 88));
+}
+
+.card.card--green::before {
+    background: linear-gradient(135deg, rgb(15, 173, 193), rgb(73, 222, 130));
+}
+
+.card:hover::before {
+    width: 100%;
+}
+
+.card-info-img {
+    height: 32px;
+    width: 32px;
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.card-desc {
+    color: var(--opa);
+}
+
+.desc {
+    position: relative;
+}
+
+.desc::after,
+.desc::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 120px;
+    width: 2px;
+    background: linear-gradient(rgb(194, 199, 206) 2%, rgb(255, 255, 255));
+}
+
+.desc.desc--whi::after,
+.desc.desc--whi::before {
+    background: linear-gradient(to top, rgba(194, 199, 206, 0) 0%, rgb(194, 199, 206));
+}
+
+.desc::after {
+    bottom: 100%;
+}
+
+.desc::before {
+    top: 100%;
+    transform: rotate(-180deg);
+}
+
+.desc-title {
+    font-size: 48px;
+}

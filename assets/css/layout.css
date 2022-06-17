@@ -1,10 +1,12 @@
 .root {
     position: relative;
-    min-height: 2000px;
+    background: #fff;
+    min-height: 5000px;
 }
 
 .header {
     position: fixed;
+    z-index: 9999;
     width: 100%;
     top: 0px;
     background: #fff;
@@ -125,30 +127,3 @@
     color: var(--opa);
 }
 
-.header_nav-son-btn-img {
-    margin-left: 5px;
-    transition: all 0.3s;
-}
-
-.header_nav-son-btn:hover .header_nav-son-btn-img {
-    margin-left: 20px;
-}
-
-.header_nav-btn {
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-    background: var(--primary);
-    height: 48px;
-    padding: 0 24px;
-    border-radius: 4px;
-    border: 1px solid transparent;
-    box-sizing: rgb(203 208 214 / 76%) 0px 6px 12px 0px;
-    transition: all 0.5s;
-}
-
-.header_nav-btn:hover {
-    color: var(--primary);
-    background: #fff;
-    border: 1px solid var(--primary);
-}
