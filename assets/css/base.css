@@ -1,0 +1,58 @@
+:root {
+    --primary: #202b50;
+    --opa: #81879A;
+    --bgr-opa: #f6f6f6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+button, input, textarea {
+    outline: none;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
