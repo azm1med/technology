@@ -328,12 +328,12 @@
 
 .home_contact {
     margin-top: 36px;
-    padding: 84px 0;
 }
 
 .home_contact-grid {
+    padding: 90px 0;
     background: url(../libs/img/bgr-both.svg) no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     display: flex;
 }
 
@@ -343,9 +343,29 @@
     padding: 50px 12%;
     background-image: url(../libs/img/retangle.svg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: calc(100% - 34px) 100%;
     text-align: center;
     color: #fff;
+    position: relative;
+}
+
+.home_contact-content::after, 
+.home_contact-content::before {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: #04a8f5;
+}
+
+.home_contact-content::before {
+    top: 30%;
+    left: 16px;
+}
+
+.home_contact-content::after {
+    bottom: 20%;
+    right: 16px;
 }
 
 .home_contact-title {
