@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="header_content grid wide">
+                <a href="../../index.html" class="header_content-logo">
+                    <img src="../libs/img/logo.svg" alt="" class="header_content-logo-img">
+                </a>
+                <ul class="header_nav">
+                    <li class="header_nav-item has--son">
+                        <span class="header_nav-link flex">
+                            Services
+                            <img src="../libs/img/icon-down.svg" alt="" class="header_nav-link-img">
+                        </span>
+                        <ul class="header_nav-son">
+                            <li class="header_nav-son-item">
+                                <a href="./odc-service.html" class="header_nav-son-link">
+                                    <div class="header_nav-son-left">
+                                        <img src="../libs/img/icon-off.svg" alt="" class="header_nav-son-info-img">
+                                    </div>
+                                    <div class="header_nav-son-right">
+                                        <h5 class="header_nav-son-title">Offshore Development</h5>
+                                        <p class="header_nav-son-desc">
+                                            Go beyond your in-house team and get access to our vast software engineering talent pool.
+                                        </p>
+                                        <div class="btn-link">
+                                            <span>Learn More</span>
+                                            <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header_nav-son-item">
+                                <a href="./dev-service.html" class="header_nav-son-link">
+                                    <div class="header_nav-son-left">
+                                        <img src="../libs/img/icon-dev.svg" alt="" class="header_nav-son-info-img">
+                                    </div>
+                                    <div class="header_nav-son-right">
+                                        <h5 class="header_nav-son-title">DevOps Service</h5>
+                                        <p class="header_nav-son-desc">
+                                            Automate your workflows to deliver more value. Focus on the Dev and leave the Ops to us.
+                                        </p>
+                                        <div class="btn-link">
+                                            <span>Learn More</span>
+                                            <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./cases.html" class="header_nav-link">Cases</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./resources.html" class="header_nav-link">Resources</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./careers.html" class="header_nav-link">Careers</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./contact.html" class="header_nav-btn btn btn--upper">Contact us</a>
+                    </li>
+                </ul>
+                <div class="header_navmb">
+                    <input type="checkbox" name="" id="header_navmb" hidden>
+                    <label id="header_navmb-control" for="header_navmb" class="header_navmb-control">
+                        <div class="header_navmb-control-item"></div>
+                        <div class="header_navmb-control-item"></div>
+                        <div class="header_navmb-control-item"></div>
+                    </label>
+                    <div class="header_navmb-content">
+                        <ul class="header_navmb-list">
+                            <li class="header_navmb-item has--son">
+                                <input type="checkbox" id="navmb_son" hidden>
+                                <label for="navmb_son" class="header_navmb-link flex">
+                                    Services
+                                    <img src="../libs/img/icon-down.svg" alt="" class="header_navmb-link-img">
+                                </label>
+                                <ul class="header_navmb-son">
+                                    <li class="header_navmb-son-item">
+                                        <a href="./odc-service.html" class="header_navmb-son-link">
+                                            <img src="../libs/img/icon-off.svg" alt="" class="header_navmb-son-info-img">
+                                            <h5 class="header_navmb-son-title">Offshore Development</h5>
+                                            <div class="btn-link">
+                                                <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header_navmb-son-item">
+                                        <a href="./dev-service.html" class="header_navmb-son-link">
+                                            <img src="../libs/img/icon-dev.svg" alt="" class="header_navmb-son-info-img">
+                                            <h5 class="header_navmb-son-title">DevOps Service</h5>
+                                            <div class="btn-link">
+                                                <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./cases.html" class="header_navmb-link">Cases</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./resources.html" class="header_navmb-link">Resources</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./careers.html" class="header_navmb-link">Careers</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./contact.html" class="header_navmb-btn btn">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="root_body">
+            <div class="odc">
+                <section class="odc_banner">
+                    <div class="odc_banner-grid grid wide">
+                        <div class="odc_banner-row row">
+                            <div class="odc_banner-col col c-12 m-12 l-5">
+                                <div class="odc_banner-left">
+                                    <h5 class="odc_banner-hot">// Offshore Development</h5>
+                                    <h2 class="odc_banner-title">Top talents tailored to your own requirements</h2>
+                                    <p class="odc_banner-desc">Assemble your dream team with top-quality software engineers, tailored to your needs.</p>
+                                    <div class="odc_banner-ac">
+                                        <a href="./contact.html" class="odc_banner-ac-btn btn">Get Your Free Consultation</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="odc_banner-col col c-12 m-12 l-7">
+                                <div class="odc_banner-right">
+                                    <img src="../libs/img/odc-service.png" alt="" class="odc_banner-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="odc_pick">
+                    <div class="odc_pick-grid grid wide">
+                        <h3 class="odc_pick-title">Pick Your Package</h3>
+                        <div class="odc_pick-box">
+                            <div class="odc_pick-inbox pt">
+                                <div class="odc_pick-list text--nol">
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-key">
+                                            <h5 class="odc_pick-item-title">Project scope</h5>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-key">
+                                            <h5 class="odc_pick-item-title">Budget and timeframe</h5>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-key">
+                                            <h5 class="odc_pick-item-title">Process Control</h5>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-key">
+                                            <h5 class="odc_pick-item-title">Requirements</h5>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-key">
+                                            <h5 class="odc_pick-item-title">Methodology</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="odc_pick-inbox">
+                                <div class="odc_pick-nav">
+                                    <div class="odc_pick-nav-media">
+                                        <img src="../libs/img/icon-team.svg" alt="" class="odc_pick-nav-media-img">
+                                    </div>
+                                    <h5 class="odc_pick-nav-title">Dedicated Team</h5>
+                                    <p class="odc_pick-nav-desc">
+                                        Hire a full-time team that deserves your trust with the best rate in Asia.
+                                    </p>
+                                    <div class="odc_pick-nav-ac">
+                                        <button class="odc_pick-nav-ac-btn btn btn--whi">Find Out More</button>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-list">
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Project scope</h5>
+                                            <p class="odc_pick-desc">Large</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Budget and timeframe</h5>
+                                            <p class="odc_pick-desc">Flexible</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Process Control</h5>
+                                            <p class="odc_pick-desc">Full ( personally or via dedicated PM)</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Requirements</h5>
+                                            <p class="odc_pick-desc">Evolving</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Methodology</h5>
+                                            <p class="odc_pick-desc">Agile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-ac">
+                                    <button class="odc_pick-ac-btn btn">Find Out More</button>
+                                </div>
+                            </div>
+                            <div class="odc_pick-inbox">
+                                <div class="odc_pick-nav">
+                                    <div class="odc_pick-nav-media">
+                                        <img src="../libs/img/icon-time.svg" alt="" class="odc_pick-nav-media-img">
+                                    </div>
+                                    <h5 class="odc_pick-nav-title">Time & Material</h5>
+                                    <p class="odc_pick-nav-desc">
+                                        Recruit your hourly-paid team and streamline through your product milestones.
+                                    </p>
+                                    <div class="odc_pick-nav-ac">
+                                        <button class="odc_pick-nav-ac-btn btn btn--whi">Find Out More</button>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-list">
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Project scope</h5>
+                                            <p class="odc_pick-desc">Medium & Large</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Budget and timeframe</h5>
+                                            <p class="odc_pick-desc">Flexible</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Process Control</h5>
+                                            <p class="odc_pick-desc">Signification</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Requirements</h5>
+                                            <p class="odc_pick-desc">Evolving</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Methodology</h5>
+                                            <p class="odc_pick-desc">Agile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-ac">
+                                    <button class="odc_pick-ac-btn btn">Find Out More</button>
+                                </div>
+                            </div>
+                            <div class="odc_pick-inbox">
+                                <div class="odc_pick-nav radius--tr">
+                                    <div class="odc_pick-nav-media">
+                                        <img src="../libs/img/icon-price.svg" alt="" class="odc_pick-nav-media-img">
+                                    </div>
+                                    <h5 class="odc_pick-nav-title">Fixed Price</h5>
+                                    <p class="odc_pick-nav-desc">
+                                        Regardless of the time and expense, your budget is fixed with us.
+                                    </p>
+                                    <div class="odc_pick-nav-ac">
+                                        <button class="odc_pick-nav-ac-btn btn btn--whi">Find Out More</button>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-list border--left">
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Project scope</h5>
+                                            <p class="odc_pick-desc">Small & Medium</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Budget and timeframe</h5>
+                                            <p class="odc_pick-desc">Fixed</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Process Control</h5>
+                                            <p class="odc_pick-desc">Finite</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Requirements</h5>
+                                            <p class="odc_pick-desc">Defined</p>
+                                        </div>
+                                    </div>
+                                    <div class="odc_pick-item">
+                                        <div class="odc_pick-extra">
+                                            <h5 class="odc_pick-item-title">Methodology</h5>
+                                            <p class="odc_pick-desc">Agile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="odc_pick-ac">
+                                    <button class="odc_pick-ac-btn btn btn--upper">Find Out More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="odc_team">
+                    <div class="odc_team-grid grid wide">
+                        <h3 class="odc_team-title">How We Assemble Your Dream Team</h3>
+                        <div class="odc_team-nav">
+                            <div id="odc-nav-1" onclick="return odcTab(this)" class="odc_team-nav-item active">Dedicated Team</div>
+                            <div id="odc-nav-2" onclick="return odcTab(this)" class="odc_team-nav-item">Time Material</div>
+                            <div id="odc-nav-3" onclick="return odcTab(this)" class="odc_team-nav-item">Fixed Price</div>
+                        </div>
+                        <div class="odc_team-pannel">
+                            <div id="odc-nav-pannel-1" class="odc_team-pannel-item active">
+                                <div class="odc_team-list">
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-consultation.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 1</span>
+                                        <h5 class="odc_team-item-title">Consultation</h5>
+                                        <p class="odc_team-item-desc">
+                                            Once we've road-mapped your objectives, we'll align your requirements with the best candidates.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-scaning.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 2</span>
+                                        <h5 class="odc_team-item-title">Candidates Scanning</h5>
+                                        <p class="odc_team-item-desc">
+                                            We'll dive deep into the tech talent pool all across the globe for only the top quality developers.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-interview.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 3</span>
+                                        <h5 class="odc_team-item-title">Interview</h5>
+                                        <p class="odc_team-item-desc">
+                                            As tech insiders, we know exactly which questions to ask. That's how we'll cherry pick the spot-on members.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-contract.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 4</span>
+                                        <h5 class="odc_team-item-title">Contract & Onboarding</h5>
+                                        <p class="odc_team-item-desc">
+                                            Welcome to the final step! Once everything is finalized, our team is ready anytime!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="odc-nav-pannel-2" class="odc_team-pannel-item">
+                                <div class="odc_team-list">
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-consultation.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 1</span>
+                                        <h5 class="odc_team-item-title">Inquiry & Consultation</h5>
+                                        <p class="odc_team-item-desc">
+                                            When you approach us with your requirements, we'll analyze and come up with a rate estimation.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-interview.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 2</span>
+                                        <h5 class="odc_team-item-title">Proposal & Discussion</h5>
+                                        <p class="odc_team-item-desc">
+                                            With our estimation, both sides will discuss together to make clear each other's requirements and reach a mutual ground.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-contract.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 3</span>
+                                        <h5 class="odc_team-item-title">Contract & Kick-start</h5>
+                                        <p class="odc_team-item-desc">
+                                            Once everything is finalized, our development team is ready to start!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="odc-nav-pannel-3" class="odc_team-pannel-item">
+                                <div class="odc_team-list">
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-consultation.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 1</span>
+                                        <h5 class="odc_team-item-title">Inquiry & Consultation</h5>
+                                        <p class="odc_team-item-desc">
+                                            We'll first make clear your requirements and then align them with a suitable price.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-atop"></div>
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-interview.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 2</span>
+                                        <h5 class="odc_team-item-title">Negotiation</h5>
+                                        <p class="odc_team-item-desc">
+                                            We'll then discuss the proposal, and adjustments are made at this stage to finalize all the specifications.
+                                        </p>
+                                    </div>
+                                    <div class="odc_team-item">
+                                        <div class="odc_team-item-media">
+                                            <img src="../libs/img/icon-new-contract.svg" alt="" class="odc_team-item-media-img">
+                                        </div>
+                                        <span class="odc_team-item-step">Step 3</span>
+                                        <h5 class="odc_team-item-title">Contract & Kick-start</h5>
+                                        <p class="odc_team-item-desc">
+                                            Welcome to the final step! Once everything is finalized, our team is ready to help you realize your ambitions!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="odc_offshore">
+                    <div class="odc_offshore-grid grid wide">
+                        <div class="odc_offshore-row row">
+                            <div class="odc_offshore-col col c-12 m-12 l-6">
+                                <div class="odc_offshore-left">
+                                    <img src="../libs/img/key-to-successfull.png" alt="" class="odc_offshore-img">
+                                </div>
+                            </div>
+                            <div class="odc_offshore-col col c-12 m-12 l-6">
+                                <div class="odc_offshore-right">
+                                    <h3 class="odc_offshore-title">What Makes a Successful Offshore Development</h3>
+                                    <ul class="odc_offshore-list">
+                                        <li class="odc_offshore-item">
+                                            <img src="../libs/img/icon-tick.svg" alt="" class="odc_offshore-item-img">
+                                            <span>Specialized Tech Talents</span>
+                                        </li>
+                                        <li class="odc_offshore-item">
+                                            <img src="../libs/img/icon-tick.svg" alt="" class="odc_offshore-item-img">
+                                            <span>Highly Secured IT Infrastructure</span>
+                                        </li>
+                                        <li class="odc_offshore-item">
+                                            <img src="../libs/img/icon-tick.svg" alt="" class="odc_offshore-item-img">
+                                            <span>Straightforward Process</span>
+                                        </li>
+                                        <li class="odc_offshore-item">
+                                            <img src="../libs/img/icon-tick.svg" alt="" class="odc_offshore-item-img">
+                                            <span>Full Source Code Ownership</span>
+                                        </li>
+                                        <li class="odc_offshore-item">
+                                            <img src="../libs/img/icon-tick.svg" alt="" class="odc_offshore-item-img">
+                                            <span>Exclusive Engineering Team</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="odc_tech section--afbe">
+                    <div class="odc_tech-grid grid wide">
+                        <div class="odc_tech-row row">
+                            <div class="odc_tech-col col c-12 m-12 l-4">
+                               <div class="odc_tech-left">
+                                   <h2 class="odc_tech-title">Get Access to The Top Technologies</h2>
+                                   <p class="odc_tech-desc">Get your product built with the leading technologies.</p>
+                               </div>
+                            </div>
+                            <div class="odc_tech-col col c-12 m-12 l-8">
+                                <div class="odc_tech-right">
+                                    <div class="odc_tech-box">
+                                        <div class="odc_tech-box-key">Front End</div>
+                                        <div class="odc-tech-box-list">
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-react.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">ReactJS</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-redux.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Redux</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-angular.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Angular</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-nextjs.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Nextjs</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-vuejs.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Vuejs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="odc_tech-box">
+                                        <div class="odc_tech-box-key">Backend</div>
+                                        <div class="odc-tech-box-list">
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-node.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Nodejs</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-php.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">PHP</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-golang.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Golang</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-dot-net.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">.Net</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="odc_tech-box">
+                                        <div class="odc_tech-box-key">Database</div>
+                                        <div class="odc-tech-box-list">
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-my-sql.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">MySQL</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-postgre.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Postgres</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-mongo-db.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">MongoDB</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-sql-server.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">SQL Server</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-oracle.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Oracle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="odc_tech-box">
+                                        <div class="odc_tech-box-key">Mobile</div>
+                                        <div class="odc-tech-box-list">
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-android.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Android</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-swift.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Swift</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-react-native.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">React Native</span>
+                                            </div>
+                                            <div class="odc_tech-box-item">
+                                                <img src="../libs/img/icon-tech-flutter.svg" alt="" class="odc_tech-box-item-img">
+                                                <span class="odc_tech-box-item-text">Flutter</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="root_contact">
+                    <div class="root_contact-grid grid wide">
+                        <div class="root_contact-content">
+                            <h2 class="root_contact-title">Kick-start Your Project Today!</h2>
+                            <p class="root_contact-desc">Contact us now and get the consultation you need to succeed.</p>
+                            <div class="root_contact-ac">
+                                <button class="btn root_contact-ac-btn btn--whi btn--upper">message us</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-grid grid wide">
+                <div class="footer-row row">
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer__info">
+                            <div class="footer__info-logo">
+                                <a href="../../index.html" class="footer__info-logo-link">
+                                    <img src="../libs/img/logo.svg" alt="" class="footer__info-logo-img">
+                                </a>
+                            </div>
+                            <p class="footer__info-desc">Collaborative, secure and transparent offshore software development.</p>
+                            <ul class="footer__info-network">
+                                <li class="footer__info-network-item">
+                                    <a href="#" class="footer__info-network-link">
+                                        <img src="../libs/img/facebook.svg" alt="" class="footer__info-network-img">
+                                    </a>
+                                </li>
+                                <li class="footer__info-network-item">
+                                    <a href="#" class="footer__info-network-link">
+                                        <img src="../libs/img/linked-in.svg" alt="" class="footer__info-network-img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer_nav">
+                            <h6 class="footer_title">Company</h6>
+                            <ul class="footer_nav-list">
+                                <li class="footer_nav-item">
+                                    <a href="./careers.html" class="footer_nav-link">Careers</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./odc-service.html" class="footer_nav-link">Services</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./resources.html" class="footer_nav-link">Resources</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./contact.html" class="footer_nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer_contact">
+                            <h6 class="footer_title">Contact Us</h6>
+                            <ul class="footer_contact-list">
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/vn.svg" alt="" class="footer_contact-img">
+                                    <p class="footer_contact-desc">186 Dang Van Ngu, Ward 14, Phu Nhuan District, HCMC.</p>
+                                </li>
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/us.svg" alt="" class="footer_contact-img">
+                                    <p class="footer_contact-desc">11018 Warath Oak CT, Houston, TX 77065.</p>
+                                </li>
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/email.svg" alt="" class="footer_contact-img">
+                                    <a href="#" class="footer_contact-link">contact@fabatechnology.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-0">
+                        <ul class="footer__info-network mobile">
+                            <li class="footer__info-network-item">
+                                <a href="#" class="footer__info-network-link">
+                                    <img src="../libs/img/facebook.svg" alt="" class="footer__info-network-img">
+                                </a>
+                            </li>
+                            <li class="footer__info-network-item">
+                                <a href="#" class="footer__info-network-link">
+                                    <img src="../libs/img/linked-in.svg" alt="" class="footer__info-network-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="footer_copyright">
+                    Copyright © 2022 Faba Technology. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/main.js"></script>
+</html>

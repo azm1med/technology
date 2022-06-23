@@ -54,20 +54,35 @@ li {
     justify-content: center;
     color: #fff;
     font-weight: 700;
-    text-transform: uppercase;
     background: var(--primary);
     height: 48px;
     padding: 0 24px;
     border-radius: 4px;
     border: 1px solid transparent;
-    box-sizing: rgb(203 208 214 / 76%) 0px 6px 12px 0px;
     transition: all 0.5s;
+}
+
+.btn.btn--whi {
+    background: #fff;
+    box-shadow: unset;
+    color: var(--primary);
+    border: 1px solid var(--primary);
 }
 
 .btn:hover {
     color: var(--primary);
     background: #fff;
     border: 1px solid var(--primary);
+}
+
+.btn.btn--whi:hover {
+    color: #fff;
+    background: #101730;
+    border: 1px solid #fff;
+}
+
+.btn.btn--upper {
+    text-transform: uppercase;
 }
 
 .btn-link {
@@ -88,26 +103,6 @@ li {
 
 .btn-link:hover .btn-link-img {
     right: -10px;
-}
-
-.text-nm {
-    font-size: 1.6rem;
-}
-
-.text-s {
-    font-size: 2.2rem;
-}
-
-.text-m {
-    font-size: 3.2rem;
-}
-
-.text-l {
-    font-size: 4.8rem;
-}
-
-.text-fa {
-    font-size: 8rem;
 }
 
 .flex {
@@ -166,7 +161,7 @@ li {
 }
 
 .card-title {
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .card-desc {
@@ -202,17 +197,13 @@ li {
 }
 
 .desc-title {
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 /* responsive  */
 @media screen and (max-width: 63.938em) {
     .btn {
         height: 40px;
-    }
-
-    .text-fa {
-        font-size: 4.8rem;
     }
 
     .desc::after,
@@ -226,7 +217,5 @@ li {
 }
 
 @media screen and (max-width: 46.188em) {
-    .text-l {
-        font-size: 4rem;
-    }
+
 }

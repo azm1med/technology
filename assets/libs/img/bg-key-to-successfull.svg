@@ -1,0 +1,36 @@
+<svg width="398" height="463" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="a">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="b">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="c">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="d">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="e">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="f">
+            <stop stop-color="#04A8F5" offset="0%"/>
+            <stop stop-color="#04A8F5" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g transform="rotate(-90 200 315)" stroke-width="2" fill="none" fill-rule="evenodd" opacity=".3">
+        <ellipse stroke="url(#a)" transform="rotate(-46 133.877 427.633)" cx="133.877" cy="427.633" rx="19.06" ry="96.898"/>
+        <ellipse stroke="url(#b)" transform="rotate(-46 172.411 395.425)" cx="172.411" cy="395.425" rx="35.911" ry="141.834"/>
+        <ellipse stroke="url(#c)" transform="rotate(-46 201.514 369.115)" cx="201.514" cy="369.115" rx="58.379" ry="187.573"/>
+        <ellipse stroke="url(#d)" transform="rotate(-46 233.63 345.387)" cx="233.629" cy="345.387" rx="74.427" ry="226.09"/>
+        <ellipse stroke="url(#e)" transform="rotate(-46 255.959 314.017)" cx="255.959" cy="314.017" rx="88.068" ry="268.619"/>
+        <ellipse stroke="url(#f)" transform="rotate(-46 287.356 280.249)" cx="287.356" cy="280.249" rx="97.972" ry="299.073"/>
+    </g>
+</svg>

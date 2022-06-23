@@ -3,11 +3,11 @@
 }
 
 .home_start {
-    padding-top: 115px;
+    
 }
 
 .home_start-grid {
-    background: url(../libs/img/bgr-both.svg) no-repeat;
+    background: url(../../libs/img/bgr-both.svg) no-repeat;
     background-size: 100%;
 }
 
@@ -15,8 +15,13 @@
     text-align: center;
 }
 
+.home_start-about-title {
+    font-size: 8rem;
+}
+
 .home_start-about-desc {
     margin: 30px 0;
+    font-size: 2.2rem;
 }
 
 .home_start-about-ac {
@@ -32,6 +37,7 @@
 }
 
 .home_start-our-title {
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -86,7 +92,7 @@
 
 .home_provide-grid {
     padding: 130px 0 240px 0;
-    background: url(../libs/img/bgr-down.png) no-repeat;
+    background: url(../../libs/img/bgr-down.png) no-repeat;
     background-size: auto;
     background-position: bottom right;
 }
@@ -111,12 +117,12 @@
     display: flex;
 }
 
-.home_wedo {
+/* .home_wedo {
     margin: 8vw 0px 20vw;
     position: relative;
     z-index: 2;
     background: #101730;
-    background-image: url(../libs/img/bgr-pos.png);
+    background-image: url(../../libs/img/bgr-pos.png);
     background-repeat: no-repeat;
     background-position: 83% 0%;
     background-size: auto;
@@ -135,17 +141,17 @@
 
 .home_wedo::before {
     bottom: 100%;
-    background: url(../libs/img/bgr-short-top.png) no-repeat;
+    background: url(../../libs/img/bgr-short-top.png) no-repeat;
     background-position: center bottom;
     background-size: 100% 100%;
 }
 
 .home_wedo::after {
     top: 100%;
-    background: url(../libs/img/bgr-short-bot.png) no-repeat;
+    background: url(../../libs/img/bgr-short-bot.png) no-repeat;
     background-position: center bottom;
     background-size: 100% 100%;
-}
+} */
 
 .home_wedo .card {
     background-image: linear-gradient(rgba(30, 39, 67, 0) 2%, rgb(30, 39, 67) 99%);
@@ -187,7 +193,7 @@
     width: 50%;
     top: -275px;
     right: 0;
-    background: url(../libs/img/bgr-right.png) no-repeat;
+    background: url(../../libs/img/bgr-right.png) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -225,6 +231,7 @@
 }
 
 .home_field-item-title {
+    font-size: 2.2rem;
     margin-bottom: 10px;
 }
 
@@ -244,6 +251,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.home_achi-header-title {
+    font-size: 4.8rem;
+}
+
+.home_achi-item-title {
+    font-size: 2.2rem;
 }
 
 .home_achi-item-media {
@@ -287,61 +302,8 @@
 }
 
 .home_brand-item-title {
+    font-size: 3.2rem;
     font-weight: 700;
-}
-
-.home_contact {
-    margin-top: 36px;
-}
-
-.home_contact-grid {
-    padding: 90px 0;
-    background: url(../libs/img/bgr-both.svg) no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-}
-
-.home_contact-content {
-    margin: auto;
-    width: 745px;
-    padding: 50px 12%;
-    background-image: url(../libs/img/retangle.svg);
-    background-repeat: no-repeat;
-    background-size: calc(100% - 34px) 100%;
-    text-align: center;
-    color: #fff;
-    position: relative;
-}
-
-.home_contact-content::after, 
-.home_contact-content::before {
-    content: "";
-    position: absolute;
-    height: 32px;
-    width: 32px;
-    background: #04a8f5;
-}
-
-.home_contact-content::before {
-    top: 30%;
-    left: 16px;
-}
-
-.home_contact-content::after {
-    bottom: 20%;
-    right: 16px;
-}
-
-.home_contact-desc {
-    margin: 20px 0 25px 0;
-}
-
-.home_contact-ac {
-    display: flex;
-}
-
-.home_contact-ac-btn {
-    margin: auto;
 }
 
 @media screen and (max-width: 63.938em) {
@@ -365,11 +327,6 @@
     .home_wedo-right .desc,
     .home_provide-left .desc {
         display: flex;
-    }
-
-    .home_wedo::after, 
-    .home_wedo::before {
-        height: 150px;
     }
 
     .home_wedo-row {
@@ -410,16 +367,12 @@
         order: -1;
     }
 
-    .home_contact-content {
-        width: 100%;
-    }
-
-    .home_contact-title.text-l {
-        font-size: 2.8rem;
-    }
-
     .home_start-our {
         margin-top: 90px;
+    }
+    
+    .home_start-about-title {
+        font-size: 4.8rem;
     }
 }
 
@@ -439,11 +392,6 @@
         margin-bottom: 5px;
     }
 
-    .home_wedo::after, 
-    .home_wedo::before {
-        height: 50px;
-    }
-
     .home_field {
         margin-top: 100px;
     }
@@ -454,30 +402,11 @@
     }
 
     .home_field-title {
+        font-size: 4.8rem;
         width: 70%;
     }
     
     .home_brand-item {
         height: 90px;
-    }
-
-    .home_contact {
-        margin-top: 0;
-    }
-
-    .home_contact-grid {
-        padding: 50px 0;
-    }
-
-    .home_contact-content {
-        background-size: calc(100% - 16px) 100%;
-    }
-
-    .home_contact-content::before {
-        left: 0;
-    }
-
-    .home_contact-content::after {
-        right: 0;
     }
 }

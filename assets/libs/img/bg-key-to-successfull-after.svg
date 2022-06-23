@@ -1,0 +1,29 @@
+<svg width="204" height="321" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="b">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148574 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="c" x="79" y="200" width="40" height="40" rx="2"/>
+    </defs>
+    <g transform="matrix(1 0 0 -1 .5 321)" fill="none" fill-rule="evenodd">
+        <rect fill="url(#a)" opacity=".3" y="150" width="20" height="20" rx="2"/>
+        <rect stroke="#04A8F5" opacity=".2" x="75.5" y="301.5" width="19" height="19" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".2" x="99.5" y="301.5" width="19" height="19" rx="2"/>
+        <rect fill="url(#a)" opacity=".3" x="99" y="279" width="20" height="20" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".2" x="9.5" y="50.5" width="19" height="19" rx="2"/>
+        <rect fill="#04A8F5" opacity=".1" x="30" y="100" width="40" height="40" rx="2"/>
+        <rect fill="url(#a)" opacity=".1" x="76" y="100" width="40" height="40" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".2" x="163.5" y="129.5" width="39" height="39" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".2" x="76.5" y="50.5" width="39" height="39" rx="2"/>
+        <rect fill="url(#a)" opacity=".2" x="127" y="50" width="40" height="40" rx="2"/>
+        <rect fill="url(#a)" opacity=".4" x="127" width="40" height="40" rx="2"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FFF" xlink:href="#c"/>
+    </g>
+</svg>
