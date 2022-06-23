@@ -1,0 +1,66 @@
+<svg width="471" height="306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="a">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="b">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="d">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <filter x="-47.3%" y="-34.7%" width="194.6%" height="197.2%" filterUnits="objectBoundingBox" id="f">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148574 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-47.3%" y="-34.7%" width="194.6%" height="197.2%" filterUnits="objectBoundingBox" id="h">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148574 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-47.3%" y="-34.7%" width="194.6%" height="197.2%" filterUnits="objectBoundingBox" id="j">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.077333 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="g" x="201" y="361" width="37" height="36" rx="2"/>
+        <rect id="i" x="9" y="165" width="37" height="36" rx="2"/>
+        <path id="c" d="M0 0h38v36H0z"/>
+        <path id="k" d="M213 44h37v36h-37z"/>
+    </defs>
+    <g transform="matrix(0 -1 -1 0 470.5 305.5)" fill="none" fill-rule="evenodd" opacity=".7">
+        <path fill="url(#a)" opacity=".2" d="M172 434h37v36h-37z"/>
+        <path fill="url(#a)" opacity=".1" d="M125 195h37v36h-37z"/>
+        <path fill="url(#b)" opacity=".1" d="M96 242h20v19H96z"/>
+        <path fill="url(#a)" opacity=".1" d="M28 99h37v36H28zM172 99h37v36h-37zM172 51h37v36h-37zM268 0h37v36h-37zM220 99h37v36h-37zM170 195h37v36h-37zM221 244h37v36h-37z"/>
+        <path fill="url(#a)" opacity=".2" d="M172 387h37v36h-37z"/>
+        <rect fill="#C2C7CE" opacity=".304" x="220" y="387" width="37" height="36" rx="2"/>
+        <rect fill="#C2C7CE" opacity=".304" x="76" y="195" width="37" height="36" rx="2"/>
+        <rect fill="#C2C7CE" opacity=".304" x="28" y="147" width="37" height="36" rx="2"/>
+        <rect fill="#04A8F5" opacity=".3" x="123" y="242" width="39" height="38" rx="2"/>
+        <g transform="rotate(180 33 163.5)">
+            <mask id="e" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <use fill="#F5F5F5" xlink:href="#c"/>
+            <path fill="url(#d)" opacity=".3" mask="url(#e)" d="m-2-2 42 40V-2z"/>
+        </g>
+        <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 383 0)" x="172.5" y="242.5" width="38" height="37" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 285 0)" x="123.5" y=".5" width="38" height="37" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 287 0)" x="124.5" y="98.5" width="38" height="37" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 18 0)" x=".5" y="147.5" width="17" height="17" rx="2"/>
+        <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 270 0)" x="126.5" y="165.5" width="17" height="17" rx="2"/>
+        <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+        <use fill="#FFF" xlink:href="#g"/>
+        <use fill="#000" filter="url(#h)" xlink:href="#i"/>
+        <use fill="#FFF" xlink:href="#i"/>
+        <use fill="#000" filter="url(#j)" xlink:href="#k"/>
+        <use fill="#FFF" xlink:href="#k"/>
+        <rect stroke="#FF9502" transform="matrix(-1 0 0 1 421 0)" x="191.5" y="61.5" width="38" height="37" rx="2"/>
+        <rect stroke="#FF9502" transform="matrix(-1 0 0 1 402 0)" x="191.5" y="382.5" width="19" height="19" rx="2"/>
+    </g>
+</svg>

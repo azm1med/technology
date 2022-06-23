@@ -257,35 +257,6 @@
     font-size: 4.8rem;
 }
 
-.home_achi-item-title {
-    font-size: 2.2rem;
-}
-
-.home_achi-item-media {
-    height: 490px;
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.home_achi-item-media-img {
-    height: 100%;
-    width: 100%;
-    transition: transform 0.3s ease-in;
-}
-
-.home_achi-item-media-img:hover {
-    transform: scale(1.01);
-}
-
-.home_achi-item-content {
-    margin-top: 16px;
-}
-
-.home_achi-item-desc {
-    color: var(--opa);
-}   
-
 .home_brand {
     margin-top: 50px;
 }
@@ -357,10 +328,6 @@
 
     .home_achi-header {
         justify-content: unset;
-    }
-
-    .home_achi-item-media {
-        height: 300px;
     }
 
     .home_brand-item-col.best {

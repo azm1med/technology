@@ -37,3 +37,33 @@ function odcReset() {
     }
 
 }
+
+// careers
+function carTab(e) {
+    const carId = e.id;
+    const carGet = document.getElementById(carId);
+    const carSplit = carId.split('-');
+    const carContent = carSplit[0] + '-' + carSplit[1] + '-content-' + carSplit[3];
+    console.log(carContent)
+    const carContentGet = document.getElementById(carContent);
+
+    if(!carGet.classList.contains('active')) {
+        carReset();
+        carGet.classList.add('active');
+        carContentGet.classList.add('active');
+    } else {
+        carReset();
+    }
+
+
+}
+
+function carReset() {
+    const carList =  document.getElementsByClassName('careers_our-control');
+    const carListContent =  document.getElementsByClassName('careers_our-content');
+
+    for (let i = 0; i < carList.length; i++) {
+        carList[i].classList.remove('active');
+        carListContent[i].classList.remove('active');
+    }
+}

@@ -114,6 +114,13 @@ li {
     justify-content: center;
 }
 
+.text-dots {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
 .card {
     display: block;
     border-radius: 8px;
