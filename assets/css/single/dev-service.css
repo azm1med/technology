@@ -2,22 +2,6 @@
     margin-top: 65px;
 }
 
-.dev_service-grid {
-
-}
-
-.dev_service-row {
-
-}
-
-.dev_service-col {
-
-}
-
-.dev_service-left {
-
-}
-
 .dev_service-img {
     height: 100%;
     width: 100%;
@@ -37,10 +21,6 @@
     margin-bottom: 10px;
 }
 
-.dev_service-list {
-
-}
-
 .dev_service-item {
     display: flex;
     padding: 10px 0;
@@ -51,10 +31,6 @@
     width: 32px;
     flex-shrink: 0;
     margin-right: 10px;
-}
-
-.dev_service-item-content {
-
 }
 
 .dev_service-item-title {
@@ -71,10 +47,6 @@
     text-align: center;
 }
 
-.dev_cloud-grid {
-
-}
-
 .dev_cloud-header {
     margin-bottom: 50px;
 }
@@ -85,14 +57,6 @@
 
 .dev_cloud-header-desc {
     color: var(--opa);
-}
-
-.dev_cloud-row {
-
-}
-
-.dev_cloud-col {
-
 }
 
 .dev_cloud-item {

@@ -1,18 +1,6 @@
-.odc_banner {
-
-}
-
-.odc_banner-grid {
-
-}
-
 .odc_banner-col {
     display: flex;
     align-items: center;
-}
-
-.odc_banner-left {
-
 }
 
 .odc_banner-hot {
@@ -34,10 +22,6 @@
 
 .odc_banner-ac {
     display: flex;
-}
-
-.odc_banner-right {
-
 }
 
 .odc_banner-img {
@@ -140,10 +124,6 @@
     justify-content: center;
 }
 
-.odc_pick-nav-btn {
-
-}
-
 .odc_pick-ac {
     display: none;
     padding: 20px 0;
@@ -155,10 +135,6 @@
 
 .odc_team {
     margin: 115px 0 30px;
-}
-
-.odc_team-grid {
-
 }
 
 .odc_team-title {
@@ -246,14 +222,6 @@
     right: -5px;
 }
 
-.odc_team-item-media {
-
-}
-
-.odc_team-item-media-img {
-
-}
-
 .odc_team-item-step {
     display: block;
     margin: 20px 0;
@@ -263,10 +231,6 @@
 .odc_team-item-title {
     font-size: 2.2rem;
     margin-bottom: 15px;
-}
-
-.odc_team-item-desc {
-
 }
 
 .odc_offshore {
@@ -292,17 +256,9 @@
     z-index: 2;
 }
 
-.odc_offshore-left {
-
-}
-
 .odc_offshore-img {
     height: 100%;
     width: 100%;
-}
-
-.odc_offshore-col {
-
 }
 
 .odc_offshore-right {
@@ -314,10 +270,6 @@
     margin-bottom: 10px;
 }
 
-.odc_offshore-list {
-
-}
-
 .odc_offshore-item {
     display: flex;
     align-items: center;
@@ -326,14 +278,6 @@
 
 .odc_offshore-item-img {
     margin-right: 10px;
-}
-
-.odc_tech {
-
-}
-
-.odc_tech-grid {
-
 }
 
 .odc_tech-row {
@@ -354,10 +298,6 @@
 
 .odc_tech-desc {
     color: var(--opa);
-}
-
-.odc_tech-col {
-
 }
 
 .odc_tech-right {
@@ -416,10 +356,6 @@
 .odc_tech-box-item-img {
     height: 40px;
     width: 40px;
-}
-
-.odc_tech-box-item-text {
-
 }
 
 

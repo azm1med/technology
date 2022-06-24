@@ -1,11 +1,3 @@
-.home {
-
-}
-
-.home_start {
-    
-}
-
 .home_start-grid {
     background: url(../../libs/img/bgr-both.svg) no-repeat;
     background-size: 100%;
@@ -86,10 +78,6 @@
     width: 100%;
 }
 
-.home_provide {
-
-}
-
 .home_provide-grid {
     padding: 130px 0 240px 0;
     background: url(../../libs/img/bgr-down.png) no-repeat;
@@ -97,61 +85,13 @@
     background-position: bottom right;
 }
 
-.home_provide-row {
-
-}
-
-.home_provide-col {
-
-}
-
 .home_provide-left {
     padding-right: 50px;
-}
-
-.home_provide-right {
-
 }
 
 .home_provide-list {
     display: flex;
 }
-
-/* .home_wedo {
-    margin: 8vw 0px 20vw;
-    position: relative;
-    z-index: 2;
-    background: #101730;
-    background-image: url(../../libs/img/bgr-pos.png);
-    background-repeat: no-repeat;
-    background-position: 83% 0%;
-    background-size: auto;
-    padding: 10% 0 7%;
-}
-
-.home_wedo::after,
-.home_wedo::before {
-    content: "";
-    position: absolute;
-    z-index: 2;
-    left: 0;
-    width: 100%;
-    height: 200px;
-}
-
-.home_wedo::before {
-    bottom: 100%;
-    background: url(../../libs/img/bgr-short-top.png) no-repeat;
-    background-position: center bottom;
-    background-size: 100% 100%;
-}
-
-.home_wedo::after {
-    top: 100%;
-    background: url(../../libs/img/bgr-short-bot.png) no-repeat;
-    background-position: center bottom;
-    background-size: 100% 100%;
-} */
 
 .home_wedo .card {
     background-image: linear-gradient(rgba(30, 39, 67, 0) 2%, rgb(30, 39, 67) 99%);
@@ -241,10 +181,6 @@
 
 .home_achi {
     margin-top: 150px;
-}
-
-.home_achi-grid {
-
 }
 
 .home_achi-header {

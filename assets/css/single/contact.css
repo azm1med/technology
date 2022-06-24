@@ -1,0 +1,130 @@
+.contact {
+    background: url(../../libs/img/bgr-right.png) no-repeat;
+    background-position: top right;
+}
+
+.contact-grid {
+
+}
+
+.contact_header {
+    margin-bottom: 50px;
+}
+
+.contact_header-title {
+    font-size: 6.4rem;
+}
+
+.contact_header-desc {  
+    font-size: 2.2rem;
+}
+
+.contact-col {
+
+}
+
+.contact_left {
+
+}
+
+.contact_form {
+    padding: 30px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(241, 243, 246) 2%, rgb(255, 255, 255));
+    border: 2px solid rgb(241, 243, 246);
+}
+
+.contact_form-title {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+}
+
+.contact_form-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact_form-box .contact_form-group {
+    flex: 1;
+}
+
+.contact_form-box .contact_form-group:first-child {
+    margin-right: 40px;
+}
+
+.contact_form-lable {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.contact_form-lable span {
+    color: #dc3545;
+    font-family: "Proxima Nova";
+}
+
+.contact_form-input {
+    height: 48px;
+    width: 100%;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.contact_form-input:focus {
+    border: 1px solid var(--primary);
+}
+
+.contact_form-input.textarea {
+    height: 150px;
+    padding: 10px;
+    resize: none;
+}
+
+.contact_form-btn {
+    margin-top: 20px;
+    width: 190px;
+}
+
+.contact_right {
+
+}
+
+.contact_right-img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 63.938em) {
+    .contact_header-title {
+        font-size: 4rem;
+    }
+
+    .contact_header-desc {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 46.188em) {
+    .contact_form-box {
+        flex-wrap: wrap;
+    }
+
+    .contact_form-box .contact_form-group {
+        flex: unset;
+        width: 100%;
+    }
+
+    .contact_form-box .contact_form-group:first-child {
+        margin-right: 0;
+    }
+
+    .contact_form-btn {
+        width: 100%;
+    }
+}
