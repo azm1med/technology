@@ -1,7 +1,6 @@
 .root {
     position: relative;
     background: #fff;
-    min-height: 5000px;
     --header-height: 80px;
 }
 
