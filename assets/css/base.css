@@ -48,6 +48,15 @@ li {
     }
 }
 
+/* @keyframes activeUp {
+    from {
+        transform: translateY(20%);
+    }
+    to {
+        transform: translateY(0);
+    }
+} */
+
 .btn {
     display: flex;
     align-items: center;
@@ -128,6 +137,7 @@ li {
     background-image: linear-gradient(rgb(241, 243, 246) 2%, rgb(255, 255, 255));
     padding: 10px 12px;
     position: relative;
+    height: 100%;
 }
 
 

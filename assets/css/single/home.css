@@ -5,10 +5,12 @@
 
 .home_start-about {
     text-align: center;
+    /* animation: activeUp 0.5s ease-in; */
 }
 
 .home_start-about-title {
     font-size: 8rem;
+    color: var(--primary);
 }
 
 .home_start-about-desc {
