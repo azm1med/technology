@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phụ hồ cơ động</title>
+    <link rel="icon" type="image/x-icon" href="../libs/img/fa-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="header_content grid wide">
+                <a href="../../index.html" class="header_content-logo">
+                    <img src="../libs/img/logo.svg" alt="" class="header_content-logo-img">
+                </a>
+                <ul class="header_nav">
+                    <li class="header_nav-item has--son">
+                        <span class="header_nav-link flex">
+                            Dịch vụ
+                            <img src="../libs/img/icon-down.svg" alt="" class="header_nav-link-img">
+                        </span>
+                        <ul class="header_nav-son">
+                            <li class="header_nav-son-item">
+                                <a href="./odc-service.html" class="header_nav-son-link">
+                                    <div class="header_nav-son-left">
+                                        <img src="../libs/img/icon-off.svg" alt="" class="header_nav-son-info-img">
+                                    </div>
+                                    <div class="header_nav-son-right">
+                                        <h5 class="header_nav-son-title">Phát triển ra nước ngoài</h5>
+                                        <p class="header_nav-son-desc">
+                                            Lực lượng của chúng tôi phủ sóng khắp trên toàn thế giới.
+                                        </p>
+                                        <div class="btn-link">
+                                            <span>Xem thêm</span>
+                                            <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header_nav-son-item">
+                                <a href="./dev-service.html" class="header_nav-son-link">
+                                    <div class="header_nav-son-left">
+                                        <img src="../libs/img/icon-dev.svg" alt="" class="header_nav-son-info-img">
+                                    </div>
+                                    <div class="header_nav-son-right">
+                                        <h5 class="header_nav-son-title">Dịch vụ trong nước</h5>
+                                        <p class="header_nav-son-desc">
+                                            Mạng lưới văn phòng phủ sóng 63 tỉnh thành sẵn sàng 24/7.
+                                        </p>
+                                        <div class="btn-link">
+                                            <span>Xem thêm</span>
+                                            <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./cases.html" class="header_nav-link">Dự án</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./resources.html" class="header_nav-link">Tài nguyên</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./careers.html" class="header_nav-link">Nghề nghiệp</a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="./contact.html" class="header_nav-btn btn btn--upper">Liên hệ</a>
+                    </li>
+                </ul>
+                <div class="header_navmb">
+                    <input type="checkbox" name="" id="header_navmb" hidden>
+                    <label id="header_navmb-control" for="header_navmb" class="header_navmb-control">
+                        <div class="header_navmb-control-item"></div>
+                        <div class="header_navmb-control-item"></div>
+                        <div class="header_navmb-control-item"></div>
+                    </label>
+                    <div class="header_navmb-content">
+                        <ul class="header_navmb-list">
+                            <li class="header_navmb-item has--son">
+                                <input type="checkbox" id="navmb_son" hidden>
+                                <label for="navmb_son" class="header_navmb-link flex">
+                                    Dịch vụ
+                                    <img src="../libs/img/icon-down.svg" alt="" class="header_navmb-link-img">
+                                </label>
+                                <ul class="header_navmb-son">
+                                    <li class="header_navmb-son-item">
+                                        <a href="./odc-service.html" class="header_navmb-son-link">
+                                            <img src="../libs/img/icon-off.svg" alt="" class="header_navmb-son-info-img">
+                                            <h5 class="header_navmb-son-title">Phát triển ra nước ngoài</h5>
+                                            <div class="btn-link">
+                                                <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header_navmb-son-item">
+                                        <a href="./dev-service.html" class="header_navmb-son-link">
+                                            <img src="../libs/img/icon-dev.svg" alt="" class="header_navmb-son-info-img">
+                                            <h5 class="header_navmb-son-title">Dịch vụ trong nước</h5>
+                                            <div class="btn-link">
+                                                <img src="../libs/img/icon-arrow.svg" alt="" class="btn-link-img">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./cases.html" class="header_navmb-link">Dự án</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./resources.html" class="header_navmb-link">Tài nguyên</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./careers.html" class="header_navmb-link">Nghề nghiệp</a>
+                            </li>
+                            <li class="header_navmb-item">
+                                <a href="./contact.html" class="header_navmb-btn btn">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="root_body">
+            <div class="details">
+                <div class="details_header">
+                    <section class="details_header-grid grid wide">
+                        <h1 class="details_header-title">Chi tiết sự việc</h1>
+                        <p class="details_header-desc">Quá trình làm một dự án của chúng tôi</p>
+                    </section>
+                </div>
+                <section class="details_body">
+                    <div class="details_body-grid grid wide">
+                        <div class="details_nav">
+                            <div onclick="return detailsTab(this)" id="deatails-nav-1" class="details_nav-item active">
+                                <svg class="details_nav-item-img" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="none" fill-rule="evenodd"><path d="M0 0h28v28H0z" fill="none"></path><path d="M12.658 2.333h-7a3.324 3.324 0 00-3.325 3.325v5.528a3.324 3.324 0 003.325 3.325h7a3.324 3.324 0 003.325-3.325V5.658a3.324 3.324 0 00-3.325-3.325zm-7 1.984h7c.742 0 1.342.6 1.342 1.341v5.528c0 .741-.6 1.342-1.342 1.342h-7a1.34 1.34 0 01-1.341-1.342V5.658c0-.741.6-1.341 1.341-1.341zm18.667-1.984a.992.992 0 01.124 1.976l-.124.008h-3.359c-.692 0-1.26.522-1.334 1.195l-.008.146v5.528c0 .692.523 1.261 1.196 1.334l.146.008h3.359a.992.992 0 01.124 1.975l-.124.008h-3.359a3.324 3.324 0 01-3.32-3.13l-.005-.195V5.658a3.324 3.324 0 013.13-3.319l.195-.006h3.359zm-11.667 14a3.324 3.324 0 013.32 3.13l.005.195v4.667a.992.992 0 01-1.975.124L14 24.325v-4.667a1.34 1.34 0 00-1.195-1.333l-.147-.008h-7a1.34 1.34 0 00-1.333 1.195l-.008.146v4.667a.992.992 0 01-1.976.124l-.008-.124v-4.667a3.324 3.324 0 013.13-3.319l.195-.006h7zm11.667 0a.992.992 0 01.124 1.976l-.124.008h-3.5a1.34 1.34 0 00-1.334 1.195l-.008.146v4.667a.992.992 0 01-1.975.124l-.008-.124v-4.667a3.324 3.324 0 013.13-3.319l.195-.006h3.5z" 
+                                fill="#81879A"></path></g></svg>
+                                <span class="details_nav-item-title">Giới thiệu</span>
+                            </div>
+                            <div onclick="return detailsTab(this)" id="deatails-nav-2" class="details_nav-item">
+                                <svg class="details_nav-item-img" width="28" height="28" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h28v28H0z" fill="none"></path><path d="M22.286 14.725l.07.12 1.023 1.959 2.288.314c1.07.148 1.526 1.354.844 2.11l-.092.093-1.652 1.52.39 2.148c.184 1.014-.888 1.793-1.854 1.412l-.115-.051-2.049-1.018-2.047 1.017c-.956.478-2.072-.245-1.987-1.24l.016-.12.39-2.148-1.652-1.52c-.778-.717-.396-1.946.621-2.179l.13-.024 2.288-.314 1.023-1.958c.476-.917 1.813-.957 2.365-.121zm-14.278 0l.07.12 1.023 1.958 2.288.315c1.07.148 1.526 1.354.843 2.11l-.091.093-1.653 1.52.39 2.148c.184 1.014-.887 1.793-1.853 1.412l-.116-.051-2.049-1.018-2.046 1.017c-.957.478-2.073-.245-1.987-1.24l.016-.12.39-2.147L1.58 19.32c-.778-.717-.395-1.946.622-2.179l.13-.024 2.287-.314 1.023-1.958c.477-.917 1.813-.957 2.366-.121zm13.13.895l-1.108 2.124a.719.719 0 01-.448.357l-.099.02-2.469.34 1.783 1.64a.675.675 0 01.221.52l-.01.096-.423 2.322 2.218-1.1.07-.03.029-.01.068-.018.033-.007.103-.012h.067l.102.012.101.025.1.04 2.216 1.1-.422-2.322a.667.667 0 01.143-.543l.068-.072 1.782-1.641-2.468-.34a.732.732 0 01-.495-.293l-.052-.084-1.11-2.124zM6.86 15.619l-1.109 2.125a.719.719 0 01-.447.357l-.1.02-2.468.34L4.52 20.1a.675.675 0 01.22.52l-.01.096-.421 2.322 2.216-1.1.071-.03.028-.01.069-.018.033-.007.102-.012h.067l.103.012.101.025.028.01.071.03 2.216 1.1-.421-2.322a.667.667 0 01.142-.543l.069-.072 1.781-1.641-2.467-.34a.732.732 0 01-.496-.293l-.051-.084-1.11-2.125zm8.288-10.354l.07.12 1.023 1.958 2.287.314c1.07.147 1.526 1.353.843 2.11l-.09.093-1.654 1.52.39 2.148c.184 1.014-.887 1.793-1.853 1.412l-.115-.051L14 13.872l-2.047 1.017c-.956.478-2.072-.245-1.987-1.24l.016-.12.39-2.147L8.72 9.86c-.778-.716-.396-1.945.622-2.178l.13-.024 2.287-.314 1.023-1.959c.476-.916 1.813-.956 2.365-.12zm-1.147.894l-1.108 2.125a.719.719 0 01-.447.357l-.1.02-2.47.34 1.783 1.64a.675.675 0 01.221.519l-.01.097-.422 2.322 2.217-1.1.07-.03.096-.03.1-.016.102-.002.103.011.101.026.1.04 2.215 1.1-.421-2.322a.667.667 0 01.143-.543l.068-.073L18.124 9l-2.467-.339a.732.732 0 01-.495-.293l-.052-.084L14 6.16z" 
+                                fill="#81879A"></path></g></svg>
+                                <span class="details_nav-item-title">Thực tế</span>
+                            </div>
+                        </div>
+                        <div class="details_content">
+                            <div id="deatails-tab-1" class="details_pannel active">
+                                <div class="details_pannel-header">
+                                    <h2 class="details_pannel-header-title">Tổng quan dự án</h2>
+                                    <p class="details_pannel-header-desc">
+                                        Với đội ngũ tận tâm, M1MED đã hỗ trợ các công trình tạo đòn bẩy từ một bãi đất trống thành một ngôi nhà và các công trình lớn.
+                                        Bất kỳ đây chúng tôi cũng có thể xây dựng những công trình, kiến trúc, hầm cầu phục vụ mọi khách hàng.
+                                    </p>
+                                </div>
+                                <div class="details_pannel-media">
+                                    <img src="../libs/img/nha.jpg" alt="" class="details_pannel-media-img">
+                                </div>
+                                <div class="details_pannel-services">
+                                    <h2 class="details_pannel-services-title">Dịch vụ cung cấp</h2>
+                                    <div class="details_pannel-services-list">
+                                        <div class="details_pannel-services-item">
+                                            <img src="../libs/img/mobile-development.png" alt="" class="details_pannel-services-img">
+                                            <span class="details_pannel-services-desc">Công nghiệp</span>
+                                        </div>
+                                        <div class="details_pannel-services-item">
+                                            <img src="../libs/img/ui-design.png" alt="" class="details_pannel-services-img">
+                                            <span class="details_pannel-services-desc">Hạ tầng kỹ thuật</span>
+                                        </div>
+                                        <div class="details_pannel-services-item">
+                                            <img src="../libs/img/quality-assurance.png" alt="" class="details_pannel-services-img">
+                                            <span class="details_pannel-services-desc">Giao thông</span>
+                                        </div>
+                                        <div class="details_pannel-services-item">
+                                            <img src="../libs/img/web-development.png" alt="" class="details_pannel-services-img">
+                                            <span class="details_pannel-services-desc">Dân dụng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details_pannel-problem row">
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-box">
+                                            <h3 class="details_pannel-box-title">Các vấn đề</h3>
+                                            <ul class="details_pannel-box-list">
+                                                <li class="details_pannel-box-item">
+                                                    Khi khách tiếp cận chúng tôi lần đầu tiên, công trình của họ chỉ là chưa được áp dụng các công nghệ xây dựng mới. 
+                                                    Các tác vụ quá trình khá đơn giản, tiến trình xây dựng còn chậm. 
+                                                    Họ đang thiếu nguồn nhân lực, vì vậy chúng tôi đã hỗ trợ.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-box">
+                                            <h3 class="details_pannel-box-title">Giải pháp</h3>
+                                            <ul class="details_pannel-box-list">
+                                                <li class="details_pannel-box-item gre">
+                                                    Công trình của họ cần được xây dựng lại, vì vậy trước tiên chúng tôi đã thảo luận về các yêu cầu đồng thời tham 
+                                                    khảo ý kiến của họ về quy trình
+                                                </li>
+                                                <li class="details_pannel-box-item gre">
+                                                    Chúng tôi cử lực lượng phụ hồ tinh nhuệ hỗ trợ kịp thời giải quyết vấn đề nhân lực.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details_pannel-features row">
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-features-left">
+                                            <h3 class="details_pannel-features-title">Đặc trưng</h3>
+                                            <ul class="details_pannel-features-list">
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Tổng đài 24/7</span>
+                                                </li>
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Nhân lực phụ hồ đông, vững mạnh</span>
+                                                </li>
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Tay nghề cao trong phân khúc phụ hồ</span>
+                                                </li>
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Không quan trọng là công trình gì và ở đâu</span>
+                                                </li>
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Niềm nở nhiệt tình, năng nhưng không nổ</span>
+                                                </li>
+                                                <li class="details_pannel-features-item">
+                                                    <span class="details_pannel-features-desc">Hỗ trợ tất cả các công trình lớn nhỏ trên toàn cầu</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-features-right">
+                                            <div class="details_pannel-features-media">
+                                                <img src="../libs/img/tuong-nha-bac-hai.jpg" alt="" class="details_pannel-features-media-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details_pannel-use">
+                                    <h3 class="details_pannel-use-title">Lĩnh vực áp dụng</h3>
+                                    <div class="details_pannel-use-list">
+                                        <div class="details_pannel-use-item">
+                                            <img src="../libs/img/web-development.png" alt="" class="details_pannel-use-img">
+                                            <div class="details_pannel-use-tip">
+                                                <span class="details_pannel-use-tip-desc">Dân dụng</span>
+                                            </div>
+                                        </div>
+                                        <div class="details_pannel-use-item">
+                                            <img src="../libs/img/mobile-development.png" alt="" class="details_pannel-use-img">
+                                            <div class="details_pannel-use-tip">
+                                                <span class="details_pannel-use-tip-desc">Công nghiệp</span>
+                                            </div>
+                                        </div>
+                                        <div class="details_pannel-use-item">
+                                            <img src="../libs/img/ui-design.png" alt="" class="details_pannel-use-img">
+                                            <div class="details_pannel-use-tip">
+                                                <span class="details_pannel-use-tip-desc">Hạ tầng</span>
+                                            </div>
+                                        </div>
+                                        <div class="details_pannel-use-item">
+                                            <img src="../libs/img/quality-assurance.png" alt="" class="details_pannel-use-img">
+                                            <div class="details_pannel-use-tip">
+                                                <span class="details_pannel-use-tip-desc">Giao thông</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="deatails-tab-2" class="details_pannel">
+                                <div class="details_pannel-news row">
+                                    <div class="details_pannel-col col c-12 m-12 l-4">
+                                        <div class="details_pannel-news-media">
+                                            <img src="../libs/img/cot-dien.jpg" alt="" class="details_pannel-news-img">
+                                        </div>
+                                    </div>
+                                    <div class="details_pannel-col col c-12 m-12 l-8">
+                                        <div class="details_pannel-news-box">
+                                            <div class="details_pannel-news-content">
+                                                <h3 class="details_pannel-news-title">Ngoài việc thực hiện những gì chúng tôi yêu cầu họ làm, họ có quyền sở hữu tốt các quyết định kỹ thuật, điều này rất có giá trị.</h3>
+                                                <p class="details_pannel-news-desc">Công nghệ M1MED rất linh hoạt, dành cả nguồn lực toàn thời gian và theo yêu cầu để cung cấp công việc phát triển chất lượng cao. 
+                                                    Họ thể hiện sự hiểu biết vững chắc về nhu cầu kinh doanh của khách hàng và cung cấp các đề xuất có giá trị để tăng hiệu quả sản xuất.</p>
+                                            </div>
+                                            <div class="details_pannel-news-content">
+                                                <h3 class="details_pannel-news-title">Điều hành</h3>
+                                                <p class="details_pannel-news-desc">Giám đốc phụ hồ M1MED</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="details_pannel-quality row">
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-quality-left">
+                                            <h5 class="details_pannel-quality-key">Đánh giá</h5>
+                                            <div class="details_pannel-quality-point">
+                                                <span class="details_pannel-quality-point-result">5.0</span>
+                                                <span class="details_pannel-quality-point-key">/5.0</span>
+                                            </div>
+                                            <div class="details_pannel-quality-star">
+                                                <img src="../libs/img/star-red.svg" alt="" class="details_pannel-quality-star-item">
+                                                <img src="../libs/img/star-red.svg" alt="" class="details_pannel-quality-star-item">
+                                                <img src="../libs/img/star-red.svg" alt="" class="details_pannel-quality-star-item">
+                                                <img src="../libs/img/star-red.svg" alt="" class="details_pannel-quality-star-item">
+                                                <img src="../libs/img/star-red.svg" alt="" class="details_pannel-quality-star-item">
+                                            </div>
+                                            <div class="details_pannel-quality-info">
+                                                <img src="../libs/img/clutch.svg" alt="" class="details_pannel-quality-info-img">
+                                                <div class="details_pannel-quality-info-title">Chất lượng được Clutch.co xác nhận</div>
+                                                <div class="details_pannel-quality-info-desc">- Phụ hồ chất lượng cao, đáng đông tiền bát gạo</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="details_pannel-col col c-12 m-12 l-6">
+                                        <div class="details_pannel-quality-right">
+                                            <div class="details_pannel-statistical">
+                                                <h4 class="details_pannel-statistical-title">Phẩm chất</h4>
+                                                <p class="details_pannel-statistical-desc">5.0</p>
+                                            </div>
+                                            <div class="details_pannel-statistical">
+                                                <h4 class="details_pannel-statistical-title">Lịch trình</h4>
+                                                <p class="details_pannel-statistical-desc">5.0</p>
+                                            </div>
+                                            <div class="details_pannel-statistical">
+                                                <h4 class="details_pannel-statistical-title">Sẵn sàng giới thiệu</h4>
+                                                <p class="details_pannel-statistical-desc">5.0</p>
+                                            </div>
+                                            <div class="details_pannel-statistical">
+                                                <h4 class="details_pannel-statistical-title">Giá cả</h4>
+                                                <p class="details_pannel-statistical-desc">5.0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="root_contact">
+                <div class="root_contact-grid grid wide">
+                    <div class="root_contact-content">
+                        <h2 class="root_contact-title">Khởi động dự án của bạn ngay hôm nay!</h2>
+                        <p class="root_contact-desc">Liên hệ với chúng tôi để được hỗ trợ kịp thời, nhanh chóng.</p>
+                        <div class="root_contact-ac">
+                            <button class="btn root_contact-ac-btn btn--whi btn--upper">Để lại lời nhắn</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <div class="footer-grid grid wide">
+                <div class="footer-row row">
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer__info">
+                            <div class="footer__info-logo">
+                                <a href="../../index.html" class="footer__info-logo-link">
+                                    <img src="../libs/img/logo.svg" alt="" class="footer__info-logo-img">
+                                </a>
+                            </div>
+                            <p class="footer__info-desc">Phục vụ  tận tình, không ngại nắng mưa cho công trình của bạn.</p>
+                            <ul class="footer__info-network">
+                                <li class="footer__info-network-item">
+                                    <a href="#" class="footer__info-network-link">
+                                        <img src="../libs/img/facebook.svg" alt="" class="footer__info-network-img">
+                                    </a>
+                                </li>
+                                <li class="footer__info-network-item">
+                                    <a href="#" class="footer__info-network-link">
+                                        <img src="../libs/img/linked-in.svg" alt="" class="footer__info-network-img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer_nav">
+                            <h6 class="footer_title">Về chúng tôi</h6>
+                            <ul class="footer_nav-list">
+                                <li class="footer_nav-item">
+                                    <a href="./careers.html" class="footer_nav-link">Nghề nghiệp</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./odc-service.html" class="footer_nav-link">Dịch vụ</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./resources.html" class="footer_nav-link">Tài nguyên</a>
+                                </li>
+                                <li class="footer_nav-item">
+                                    <a href="./contact.html" class="footer_nav-link">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-4">
+                        <div class="footer_contact">
+                            <h6 class="footer_title">Liên hệ</h6>
+                            <ul class="footer_contact-list">
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/vn.svg" alt="" class="footer_contact-img">
+                                    <p class="footer_contact-desc">Số 777, đường Quang Trung, phố Nguyễn Huệ, tp.Bắc Bình Vương.</p>
+                                </li>
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/us.svg" alt="" class="footer_contact-img">
+                                    <p class="footer_contact-desc">Số 999, đường Nhựa, phố Trong Phố, tp.Mỹ Tho.</p>
+                                </li>
+                                <li class="footer_contact-item">
+                                    <img src="../libs/img/email.svg" alt="" class="footer_contact-img">
+                                    <a href="#" class="footer_contact-link">aconggomai@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col col c-12 m-12 l-0">
+                        <ul class="footer__info-network mobile">
+                            <li class="footer__info-network-item">
+                                <a href="#" class="footer__info-network-link">
+                                    <img src="../libs/img/facebook.svg" alt="" class="footer__info-network-img">
+                                </a>
+                            </li>
+                            <li class="footer__info-network-item">
+                                <a href="#" class="footer__info-network-link">
+                                    <img src="../libs/img/linked-in.svg" alt="" class="footer__info-network-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="footer_copyright">
+                    Trang web xây dựng bởi @m1med.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="../js/main.js"></script>
+</html>

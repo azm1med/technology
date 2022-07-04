@@ -1,0 +1,50 @@
+<svg width="1469" height="441" viewBox="0 0 1469 441" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="ua2yhywqra">
+            <stop stop-color="#E5E9ED" offset="0%"/>
+            <stop stop-color="#C2C7CE" offset="100%"/>
+        </linearGradient>
+        <filter x="-227.5%" y="-215%" width="555%" height="555%" filterUnits="objectBoundingBox" id="6l5q6gbtcb">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="29.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0706402972 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="8ke6cbff5c" x="208" y="200" width="40" height="40" rx="2"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1137)">
+            <rect fill="url(#ua2yhywqra)" opacity=".3" x="129" y="150" width="20" height="20" rx="2"/>
+            <rect stroke="#04A8F5" opacity=".2" x="204.5" y="301.5" width="19" height="19" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" x="228.5" y="301.5" width="19" height="19" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".3" x="228" y="279" width="20" height="20" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" x="138.5" y="50.5" width="19" height="19" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".1" x="205" y="100" width="40" height="40" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" x="292.5" y="129.5" width="39" height="39" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" x="205.5" y="50.5" width="39" height="39" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".2" x="256" y="50" width="40" height="40" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".4" x="256" width="40" height="40" rx="2"/>
+            <use fill="#000" filter="url(#6l5q6gbtcb)" xlink:href="#8ke6cbff5c"/>
+            <use fill="#FFF" xlink:href="#8ke6cbff5c"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".3" x="122" y="281" width="40" height="40" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".3" x="47" y="354" width="40" height="40" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".1" y="354" width="40" height="40" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" x="122.5" y="379.5" width="39" height="39" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".1" x="122.5" y="334.5" width="39" height="39" rx="2"/>
+        </g>
+        <g transform="translate(0 74)">
+            <rect fill="url(#ua2yhywqra)" opacity=".3" transform="matrix(-1 0 0 1 376 0)" x="168" y="101" width="40" height="40" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".1" transform="matrix(-1 0 0 1 376 0)" x="168" y="230" width="40" height="40" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".1" transform="matrix(-1 0 0 1 394 0)" x="188.5" y="349.5" width="17" height="17" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".1" transform="matrix(-1 0 0 1 474 0)" x="217" y="230" width="40" height="40" rx="2"/>
+            <rect stroke="#FF9502" transform="matrix(-1 0 0 1 178 0)" x="69.5" y="230.5" width="39" height="39" rx="2"/>
+            <rect stroke="#C2C7CE" opacity=".2" transform="matrix(-1 0 0 1 278 0)" x="119.5" y="150.5" width="39" height="39" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".4" transform="matrix(-1 0 0 1 82 0)" x="21" y="150" width="40" height="40" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".1" transform="matrix(-1 0 0 1 278 0)" x="119" width="40" height="40" rx="2"/>
+            <rect stroke="url(#ua2yhywqra)" opacity=".2" transform="matrix(-1 0 0 1 178 0)" x="69.5" y=".5" width="39" height="39" rx="2"/>
+            <rect stroke="url(#ua2yhywqra)" opacity=".2" transform="matrix(-1 0 0 1 178 0)" x="69.5" y="50.5" width="39" height="39" rx="2"/>
+            <rect fill="url(#ua2yhywqra)" opacity=".4" transform="matrix(-1 0 0 1 21 0)" width="21" height="21" rx="2"/>
+            <rect stroke="url(#ua2yhywqra)" opacity=".2" transform="matrix(-1 0 0 1 259 0)" x="119.5" y="50.5" width="20" height="20" rx="2"/>
+            <rect fill="#F1F3F5" transform="matrix(-1 0 0 1 211 0)" x="95" y="222" width="21" height="21" rx="2"/>
+        </g>
+    </g>
+</svg>

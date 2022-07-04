@@ -68,6 +68,33 @@ function carReset() {
     }
 }
 
+//details tab
+function detailsTab(e) {
+    var detailsNav = e.id;
+    var detailsGet = document.getElementById(detailsNav);
+    var detailsSplit = detailsNav.split('-');
+    var detailsTab = detailsSplit[0] + '-tab-' + detailsSplit[2];
+    var detailsTabGet = document.getElementById(detailsTab);
+
+    if(!detailsGet.classList.contains('active')) {
+        // window.location.reload();
+        detailsTabReset();
+        detailsGet.classList.add('active');
+        detailsTabGet.classList.add('active');
+    }
+}
+
+function detailsTabReset() {
+    var detailsClassNav = document.getElementsByClassName('details_nav-item'); 
+    var detailsClassTab = document.getElementsByClassName('details_pannel'); 
+
+    for (let index = 0; index < detailsClassTab.length; index++) {
+        detailsClassNav[index].classList.remove('active');
+        detailsClassTab[index].classList.remove('active');
+    }
+
+}
+
 ScrollReveal().reveal('.home_start-about-title', { delay: 400, distance: '50px'});
 ScrollReveal().reveal('.home_start-about-desc', { delay: 500, distance: '50px'});
 ScrollReveal().reveal('.home_start-about-ac', { delay: 600, distance: '50px'});
@@ -82,9 +109,9 @@ ScrollReveal().reveal('.home_field-item', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.home_achi-header', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.root-item', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.home_brand-item', { delay: 600, distance: '50px'});
-ScrollReveal().reveal('.root_contact-title', { delay: 400, distance: '50px'});
-ScrollReveal().reveal('.root_contact-desc', { delay: 500, distance: '50px'});
-ScrollReveal().reveal('.root_contact-ac', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.root_contact-title', { delay: 400, distance: '50px',});
+ScrollReveal().reveal('.root_contact-desc', { delay: 500, distance: '50px',});
+ScrollReveal().reveal('.root_contact-ac', { delay: 600, distance: '50px',});
 ScrollReveal().reveal('.odc_banner-left', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.odc_banner-right', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.odc_pick-nav', { delay: 600, distance: '50px'});
@@ -108,3 +135,15 @@ ScrollReveal().reveal('.careers_our-item', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.contact_header', { delay: 600, distance: '50px'});
 ScrollReveal().reveal('.contact_left', { delay: 400, distance: '50px'});
 ScrollReveal().reveal('.contact_right', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_header-grid', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_nav', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-header', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-media', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-services-title', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-services-list', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-box', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-features-title', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-features-media', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-features-list', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-use-title', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.details_pannel-use-list', { delay: 600, distance: '50px'});
