@@ -30,7 +30,7 @@
 
 .details_nav-item {
     height: 40px;
-    min-width: 160px;
+    padding: 0 20px;
     border-radius: 6px;
     margin-right: 20px;
     color: #81879a;
@@ -388,6 +388,10 @@
     .details_pannel-features {
         padding: 25px;
     }
+
+    .details_pannel-quality-right {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 46.188em) {
@@ -410,5 +414,13 @@
 
     .details_pannel-use-list {
         justify-content: center;
+    }
+
+    .details_nav {
+        justify-content: center;
+    }
+
+    .details_nav-item {
+        padding: 0 10px;
     }
 }
