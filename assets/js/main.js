@@ -67,3 +67,44 @@ function carReset() {
         carListContent[i].classList.remove('active');
     }
 }
+
+ScrollReveal().reveal('.home_start-about-title', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.home_start-about-desc', { delay: 500, distance: '50px'});
+ScrollReveal().reveal('.home_start-about-ac', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.home_start-our-title', { delay: 500, distance: '50px'});
+ScrollReveal().reveal('.home_start-our-list', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.desc', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.card-info', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.card-title', { delay: 500, distance: '50px'});
+ScrollReveal().reveal('.card-desc', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.home_field-title', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.home_field-item', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.home_achi-header', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.root-item', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.home_brand-item', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.root_contact-title', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.root_contact-desc', { delay: 500, distance: '50px'});
+ScrollReveal().reveal('.root_contact-ac', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_banner-left', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_banner-right', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_pick-nav', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_pick-item', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_team-grid', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_offshore-row', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.odc_offshore-list', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.odc_tech-left', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.odc_tech-box', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.dev_service-row', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.dev_service-list', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.dev_cloud-header', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.dev_cloud-row', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.cases_header-title', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.cases_header-desc', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.careers_about-left', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.careers_about-right', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.careers_header', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.careers_join-row', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.careers_our-item', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.contact_header', { delay: 600, distance: '50px'});
+ScrollReveal().reveal('.contact_left', { delay: 400, distance: '50px'});
+ScrollReveal().reveal('.contact_right', { delay: 600, distance: '50px'});

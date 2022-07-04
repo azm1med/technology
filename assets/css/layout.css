@@ -429,6 +429,7 @@
 
 .root-item-desc {
     color: var(--opa);
+    -webkit-line-clamp: 2;
 }   
 
 .root-item-ac {

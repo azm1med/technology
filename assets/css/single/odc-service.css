@@ -335,8 +335,9 @@
 }
 
 .odc_tech-box-key {
-    width: 165px;
+    width: 123px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     font-size: 2.2rem;
 }
@@ -356,6 +357,10 @@
 .odc_tech-box-item-img {
     height: 40px;
     width: 40px;
+}
+
+.odc_tech-box-item-text {
+    -webkit-line-clamp: 1;
 }
 
 
@@ -478,5 +483,9 @@
 @media screen and (max-width: 46.188em) {
     .odc_team-nav-item:last-child {
         display: none;
+    }
+
+    .odc_tech-box {
+        padding: 5px 15px;
     }
 }
